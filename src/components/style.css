@@ -1,0 +1,19 @@
+/* NAVBAR STYLES */
+.navbar {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.nav-logo {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+.nav-items {
+    display: flex;
+    gap: 10px;
+}
