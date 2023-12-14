@@ -8,7 +8,6 @@ import flash1 from "../images/flash1.jpg";
 import flash2 from "../images/flash2.jpg";
 import flash3 from "../images/flash3.jpg";
 import flash4 from "../images/flash4.jpg";
-import flash4 from "../images/flash4.jpg";
 
 export const PRODUCTS = [
     {
