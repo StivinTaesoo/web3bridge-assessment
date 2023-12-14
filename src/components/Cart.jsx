@@ -5,10 +5,11 @@ import CartItem from "./CartItem";
 
 function Cart() {
     const { cartItems } = useContext(CartContext);
+    console.log(cartItems);
     return (
-        <div>
+        <div className="cart">
             <h1>Cart Items</h1>
-            <div className="cart-items">
+            <div className="cart-">
                 {PRODUCTS.map((item) => {
                     if (cartItems[item.id] !== 0) {
                         return <CartItem data={item} />;

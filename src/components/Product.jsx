@@ -9,11 +9,13 @@ function Product(props) {
     return (
         <div className="products-container">
             <div className="product-img">
-                <img src={url} />
+                <img src={url} alt={title} />
             </div>
 
             <div className="title">{title}</div>
-            <div className="title">#{price}</div>
+            <div className="title">
+                <strong>#{price}</strong>
+            </div>
             <button className="add-to-cart-btn" onClick={() => addToCart(id)}>
                 Add to cart
             </button>

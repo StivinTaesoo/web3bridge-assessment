@@ -11,7 +11,7 @@ import flash4 from "../images/flash4.jpg";
 
 export const PRODUCTS = [
     {
-        id: "74",
+        id: 1,
         title: "Defacto Woman Slim - Fit Short ",
         url: defacto1,
         category: "fashion",
@@ -23,7 +23,7 @@ export const PRODUCTS = [
         brand: "defacto",
     },
     {
-        id: "75",
+        id: 2,
         title: "Defacto Men Knitted Regular ",
         url: defacto2,
         category: "fashion",
@@ -35,7 +35,7 @@ export const PRODUCTS = [
         brand: "defacto",
     },
     {
-        id: "76",
+        id: 3,
         title: "Defacto Man Slim - Fit Short",
         url: defacto3,
         category: "fashion",
@@ -47,7 +47,7 @@ export const PRODUCTS = [
         brand: "defacto",
     },
     {
-        id: "77",
+        id: 4,
         title: "Defacto Man Regular Carpet Shirt",
         url: defacto4,
         category: "fashion",
@@ -59,7 +59,7 @@ export const PRODUCTS = [
         brand: "defacto",
     },
     {
-        id: "78",
+        id: 5,
         title: "Defacto Men Knitted Slim Short ",
         url: defacto5,
         category: "fashion",
@@ -71,7 +71,7 @@ export const PRODUCTS = [
         brand: "defacto",
     },
     {
-        id: "79",
+        id: 6,
         title: "Defacto Woman Slim - Fit Short ",
         url: defacto6,
         category: "fashion",
@@ -83,7 +83,7 @@ export const PRODUCTS = [
         brand: "defacto",
     },
     {
-        id: "19",
+        id: 7,
         title: "Socks Set of 6 Multicolor",
         url: flash1,
         category: "fashion",
@@ -94,7 +94,7 @@ export const PRODUCTS = [
         percentage: "-84%",
     },
     {
-        id: "20",
+        id: 8,
         title: "Lenovo Thinkplus X16 BT",
         url: flash2,
         category: "mobile accessories",
@@ -106,7 +106,7 @@ export const PRODUCTS = [
         brand: "Lenovo",
     },
     {
-        id: "21",
+        id: 9,
         title: "Itel 10000MAh Star 100 F",
         url: flash3,
         category: "phones",
@@ -118,7 +118,7 @@ export const PRODUCTS = [
         brand: "Itel",
     },
     {
-        id: "22",
+        id: 10,
         title: 'Tecno POP 7 6.6"-2/64',
         url: flash4,
         category: "phones",
