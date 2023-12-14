@@ -1,5 +1,7 @@
 import React from "react";
 import { PRODUCTS } from "../data/items";
+import Product from "./Product";
+import "./style.css";
 
 function Home() {
     return (
@@ -7,13 +9,7 @@ function Home() {
             <h1>SPEC SHOPPING MALL</h1>
             <div className="products">
                 {PRODUCTS.map((item) => {
-                    return (
-                        <>
-                            <img src={item.url} />
-                            <div className="title">{item.title}</div>
-                            <div className="add-to-cart">Add to cart</div>
-                        </>
-                    );
+                    return <Product data={item} />;
                 })}
             </div>
         </div>
