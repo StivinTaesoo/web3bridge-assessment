@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/web3bridge-assessment/static/css/main.46414139.css",
+    "main.js": "/web3bridge-assessment/static/js/main.98d5188f.js",
+    "static/js/787.4161c9ce.chunk.js": "/web3bridge-assessment/static/js/787.4161c9ce.chunk.js",
+    "static/media/flash4.jpg": "/web3bridge-assessment/static/media/flash4.11bea0a22f5958d2e658.jpg",
+    "static/media/defacto-4.jpg": "/web3bridge-assessment/static/media/defacto-4.44aad8b06cbf4174a0b2.jpg",
+    "static/media/flash3.jpg": "/web3bridge-assessment/static/media/flash3.6f7758f452293729ef16.jpg",
+    "static/media/flash1.jpg": "/web3bridge-assessment/static/media/flash1.a35f9ff2f123cf5dcc73.jpg",
+    "index.html": "/web3bridge-assessment/index.html",
+    "main.46414139.css.map": "/web3bridge-assessment/static/css/main.46414139.css.map",
+    "main.98d5188f.js.map": "/web3bridge-assessment/static/js/main.98d5188f.js.map",
+    "787.4161c9ce.chunk.js.map": "/web3bridge-assessment/static/js/787.4161c9ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46414139.css",
+    "static/js/main.98d5188f.js"
+  ]
+}
