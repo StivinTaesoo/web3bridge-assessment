@@ -13,7 +13,7 @@ function Product(props) {
             </div>
 
             <div className="title">{title}</div>
-            <div className="title">{price}</div>
+            <div className="title">#{price}</div>
             <button className="add-to-cart-btn" onClick={() => addToCart(id)}>
                 Add to cart
             </button>
