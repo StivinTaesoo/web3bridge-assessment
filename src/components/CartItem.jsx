@@ -4,7 +4,8 @@ import "./style.css";
 
 function CartItem(props) {
     const { id, url, title, price } = props.data;
-    const { cartItems, addToCart, removeFromCart } = useContext(CartContext);
+    const { cartItems, addToCart, removeFromCart, updateItemQty } =
+        useContext(CartContext);
     return (
         <>
             <div className="cart-items">
@@ -24,7 +25,12 @@ function CartItem(props) {
                         >
                             -
                         </button>
-                        <input type="text" value={cartItems[id]} />
+                        <input
+                            value={cartItems[id]}
+                            onChange={(e) =>
+                                Number(updateItemQty(e.target.value), id)
+                            }
+                        />
                         <button
                             className="add-btn"
                             onClick={() => addToCart(id)}
